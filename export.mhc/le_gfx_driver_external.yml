@@ -1,0 +1,1240 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: le_gfx_driver_external}
+children:
+- type: Symbols
+  children:
+  - type: Combo
+    attributes: {id: BaseDriverType}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Custom}
+  - type: Combo
+    attributes: {id: BlitType}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Interface Asynchronous}
+  - type: Hex
+    attributes: {id: Command0}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '58'}
+      - type: User
+        attributes: {value: '17'}
+  - type: String
+    attributes: {id: Command0Comment}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: Pixel Format Set}
+      - type: User
+        attributes: {value: Out of sleep mode}
+  - type: Integer
+    attributes: {id: Command0Delay}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '500'}
+  - type: Hex
+    attributes: {id: Command0Parm0}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '5'}
+  - type: Integer
+    attributes: {id: Command0ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '1'}
+      - type: User
+        attributes: {value: '0'}
+  - type: Hex
+    attributes: {id: Command1}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '233'}
+      - type: User
+        attributes: {value: '177'}
+  - type: Hex
+    attributes: {id: Command10}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '224'}
+  - type: String
+    attributes: {id: Command10Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Gamma Adjustments (pos)}
+  - type: Hex
+    attributes: {id: Command10Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Hex
+    attributes: {id: Command10Parm1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '28'}
+  - type: Hex
+    attributes: {id: Command10Parm10}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '43'}
+  - type: Hex
+    attributes: {id: Command10Parm11}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '57'}
+  - type: Hex
+    attributes: {id: Command10Parm12}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Hex
+    attributes: {id: Command10Parm13}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: Hex
+    attributes: {id: Command10Parm14}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '3'}
+  - type: Hex
+    attributes: {id: Command10Parm15}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '16'}
+  - type: Hex
+    attributes: {id: Command10Parm2}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '7'}
+  - type: Hex
+    attributes: {id: Command10Parm3}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '18'}
+  - type: Hex
+    attributes: {id: Command10Parm4}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '55'}
+  - type: Hex
+    attributes: {id: Command10Parm5}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '50'}
+  - type: Hex
+    attributes: {id: Command10Parm6}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '41'}
+  - type: Hex
+    attributes: {id: Command10Parm7}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '45'}
+  - type: Hex
+    attributes: {id: Command10Parm8}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '41'}
+  - type: Hex
+    attributes: {id: Command10Parm9}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '37'}
+  - type: Integer
+    attributes: {id: Command10ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '16'}
+  - type: Hex
+    attributes: {id: Command11}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '225'}
+  - type: String
+    attributes: {id: Command11Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Gamma Adjustments (neg)}
+  - type: Hex
+    attributes: {id: Command11Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '3'}
+  - type: Hex
+    attributes: {id: Command11Parm1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '29'}
+  - type: Hex
+    attributes: {id: Command11Parm10}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '55'}
+  - type: Hex
+    attributes: {id: Command11Parm11}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '63'}
+  - type: Hex
+    attributes: {id: Command11Parm12}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Hex
+    attributes: {id: Command11Parm13}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Hex
+    attributes: {id: Command11Parm14}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Hex
+    attributes: {id: Command11Parm15}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '16'}
+  - type: Hex
+    attributes: {id: Command11Parm2}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '7'}
+  - type: Hex
+    attributes: {id: Command11Parm3}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: Hex
+    attributes: {id: Command11Parm4}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '46'}
+  - type: Hex
+    attributes: {id: Command11Parm5}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '44'}
+  - type: Hex
+    attributes: {id: Command11Parm6}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '41'}
+  - type: Hex
+    attributes: {id: Command11Parm7}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '45'}
+  - type: Hex
+    attributes: {id: Command11Parm8}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '46'}
+  - type: Hex
+    attributes: {id: Command11Parm9}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '46'}
+  - type: Integer
+    attributes: {id: Command11ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '16'}
+  - type: Hex
+    attributes: {id: Command12}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '19'}
+  - type: String
+    attributes: {id: Command12Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Normal display on}
+  - type: Integer
+    attributes: {id: Command12Delay}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: Hex
+    attributes: {id: Command13}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '41'}
+  - type: String
+    attributes: {id: Command13Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Main screen turn on}
+  - type: Integer
+    attributes: {id: Command13Delay}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '100'}
+  - type: String
+    attributes: {id: Command1Comment}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: Set Image Function}
+      - type: User
+        attributes: {value: Framerate control}
+  - type: Integer
+    attributes: {id: Command1Delay}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '0'}
+  - type: Hex
+    attributes: {id: Command1Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '1'}
+      - type: User
+        attributes: {value: '1'}
+  - type: Hex
+    attributes: {id: Command1Parm1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '44'}
+  - type: Hex
+    attributes: {id: Command1Parm2}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '45'}
+  - type: Integer
+    attributes: {id: Command1ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '1'}
+      - type: User
+        attributes: {value: '3'}
+  - type: Hex
+    attributes: {id: Command2}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '176'}
+      - type: User
+        attributes: {value: '192'}
+  - type: String
+    attributes: {id: Command2Comment}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: Interface Mode Control}
+      - type: User
+        attributes: {value: Power control 1}
+  - type: Hex
+    attributes: {id: Command2Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '0'}
+      - type: User
+        attributes: {value: '162'}
+  - type: Hex
+    attributes: {id: Command2Parm1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Hex
+    attributes: {id: Command2Parm2}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '132'}
+  - type: Integer
+    attributes: {id: Command2ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '1'}
+      - type: User
+        attributes: {value: '3'}
+  - type: Hex
+    attributes: {id: Command3}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '54'}
+      - type: User
+        attributes: {value: '193'}
+  - type: String
+    attributes: {id: Command3Comment}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: Memory Access Control}
+      - type: User
+        attributes: {value: Power control 2}
+  - type: Hex
+    attributes: {id: Command3Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '72'}
+      - type: User
+        attributes: {value: '197'}
+  - type: Hex
+    attributes: {id: Command3Parm1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '197'}
+  - type: Integer
+    attributes: {id: Command3ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '1'}
+      - type: User
+        attributes: {value: '1'}
+  - type: Hex
+    attributes: {id: Command4}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '17'}
+      - type: User
+        attributes: {value: '194'}
+  - type: String
+    attributes: {id: Command4Comment}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: Sleep Out}
+      - type: User
+        attributes: {value: Power control 3}
+  - type: Hex
+    attributes: {id: Command4Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: Hex
+    attributes: {id: Command4Parm1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '0'}
+  - type: Integer
+    attributes: {id: Command4ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '0'}
+      - type: User
+        attributes: {value: '2'}
+  - type: Hex
+    attributes: {id: Command5}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '41'}
+      - type: User
+        attributes: {value: '195'}
+  - type: String
+    attributes: {id: Command5Comment}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: Display On}
+      - type: User
+        attributes: {value: Power control 4}
+  - type: Hex
+    attributes: {id: Command5Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '138'}
+  - type: Hex
+    attributes: {id: Command5Parm1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '42'}
+  - type: Integer
+    attributes: {id: Command5ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '0'}
+      - type: User
+        attributes: {value: '2'}
+  - type: Hex
+    attributes: {id: Command6}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '196'}
+  - type: String
+    attributes: {id: Command6Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Power control 5}
+  - type: Hex
+    attributes: {id: Command6Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '138'}
+  - type: Hex
+    attributes: {id: Command6Parm1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '238'}
+  - type: Integer
+    attributes: {id: Command6ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Hex
+    attributes: {id: Command7}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '197'}
+  - type: String
+    attributes: {id: Command7Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Common voltage control}
+  - type: Hex
+    attributes: {id: Command7Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '14'}
+  - type: Integer
+    attributes: {id: Command7ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: Hex
+    attributes: {id: Command8}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '54'}
+  - type: String
+    attributes: {id: Command8Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Memory access control}
+  - type: Hex
+    attributes: {id: Command8Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '200'}
+  - type: Integer
+    attributes: {id: Command8ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: Hex
+    attributes: {id: Command9}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '58'}
+  - type: String
+    attributes: {id: Command9Comment}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Set color mode}
+  - type: Hex
+    attributes: {id: Command9Parm0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '5'}
+  - type: Integer
+    attributes: {id: Command9ParmsCount}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: String
+    attributes: {id: ControllerName}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: Custom}
+      - type: User
+        attributes: {value: ST7735}
+  - type: Combo
+    attributes: {id: DataWriteSize}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '8'}
+  - type: Integer
+    attributes: {id: DisplayHeight}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '128'}
+  - type: Combo
+    attributes: {id: DisplayInterfaceType}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: SPI 4-line}
+  - type: Integer
+    attributes: {id: DisplayWidth}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '128'}
+  - type: File
+    attributes: {id: GFX_EXTERNAL_CONTROLLER_ASYNC_C}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: GFX_EXTERNAL_CONTROLLER_C}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Integer
+    attributes: {id: InitCommandsCount}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '6'}
+      - type: User
+        attributes: {value: '14'}
+  - type: Hex
+    attributes: {id: MemoryWriteCommand}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '44'}
+  - type: Comment
+    attributes: {id: PixelDataInfoString16bit}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Comment
+    attributes: {id: PixelDataInfoString8bit2byteNorm}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Combo
+    attributes: {id: PixelDataTxSize8Bit}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Integer
+    attributes: {id: PostResetDelay}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '30'}
+      - type: User
+        attributes: {value: '100'}
+  - type: Hex
+    attributes: {id: SetXAddressCommand}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '42'}
+  - type: Hex
+    attributes: {id: SetYAddressCommand}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_driver_external, value: '43'}
+  - type: Integer
+    attributes: {id: XAddressOffset}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Integer
+    attributes: {id: YAddressOffset}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '3'}
+- type: Attachments
+  children:
+  - type: DirectDependency
+    attributes: {id: Parallel Display Interface}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: DirectDependency
+    attributes: {id: SPI Display Interface}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: le_gfx_intf_spi4}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: le_gfx_intf_spi4}
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: DirectCapability
+    attributes: {id: gfx_driver_external}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: gfx_legato}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: gfx_driver}
+- type: ElementPosition
+  attributes: {x: '299', y: '278', id: le_gfx_driver_external}
